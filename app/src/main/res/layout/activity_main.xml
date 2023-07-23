@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature Converter by Maddy"
+        android:textSize="19dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+         />
+
+    <EditText
+        android:id="@+id/enterTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter Temperature"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHint="#979393"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/cToF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celcius to Fahrenhiet"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:id="@+id/fToC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fahrenhiet to Celcius"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0 Degree"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
